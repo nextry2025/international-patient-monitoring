@@ -1,0 +1,113 @@
+/* patientlist.css */
+
+/* src/CliniqueDashboard.css */
+.color-legend {
+  margin: 10px 50px 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: fit-content;
+  float: right;
+  clear: both; 
+}
+
+.color-legend p {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.color-swatch {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+
+.EN_ATTENTE_ADMISSION{
+  background-color: #ffff06; 
+}
+
+.ADMIS_PAR_LA_CLINIQUE{
+  background-color: #FFA500; 
+}
+
+
+.REÇU_PAR_LA_CLINIQUE{
+  background-color: #4682B4; 
+}
+
+.PRIS_EN_CHARGE{
+  background-color: #90EE90;
+}
+
+.LIBÉRÉ_AVEC_RENDEZ_VOUS {
+  background-color: #006400; 
+}
+
+.LIBÉRÉ_SANS_RENDEZ_VOUS {
+  background-color: #ff0be3; 
+}
+
+
+.patient-list-container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .patient-list-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .patient-list-table th,
+  .patient-list-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .patient-list-table th {
+    background-color: #f8f9fa;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .patient-list-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .patient-list-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .patient-list-table td:last-child {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  .patient-list-table button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .patient-list-table button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+  
+  .patient-list-table .fa-file-circle-plus {
+    margin-right: 5px;
+  }
+  

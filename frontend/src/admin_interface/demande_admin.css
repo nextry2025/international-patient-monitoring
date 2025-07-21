@@ -1,0 +1,64 @@
+.modal-dialog-custom {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        max-width:  150vh;
+        pointer-events: auto;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.3rem;
+        outline: 0;
+}
+.cadre{
+    width: 100%; /* Largeur du cadre */
+        background-color: white; /* Fond blanc */
+        border: 2px solid #8B0000; /* Border rouge foncé */
+        border-radius: 10px; /* Rayon de bordure */
+        padding: 10px; /* Espacement à l'intérieur du cadre */
+        box-sizing: border-box;
+        margin-bottom: 25px;
+}
+.ligne {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        border-bottom: 5px solid #8B0000; /* Ligne en bas */
+        border-radius: 100px;
+    }
+    .ligne_2{
+        position: absolute;
+        left: 42%;
+        transform: translateX(-50%);
+        width: 80%;
+        border-bottom: 5px solid #8B0000; /* Ligne en bas */
+        border-radius: 100px;
+    }
+
+    .texte-rouge {
+        color: #8B0000; /* Rouge foncé */
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .entete_demande{
+        padding-bottom: 50px;
+        width: 100%;
+    }
+    .spnan_tel {
+        margin-left: 350px;
+    }
+    .textarea{
+        width: 100%;
+    }
+   .libelle_demande{
+    margin-top: 30px;
+   }
+
+   .qr-code-container {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+    

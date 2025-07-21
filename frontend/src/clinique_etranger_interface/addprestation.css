@@ -1,0 +1,93 @@
+/* addprestation.css */
+body.AddPrestation {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .AddPrestation .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .AddPrestation h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .AddPrestation form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AddPrestation label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .AddPrestation input[type="text"],
+  .AddPrestation input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .AddPrestation input[type="text"]:focus,
+  .AddPrestation input[type="file"]:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .AddPrestation .ajouter_prestation {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .AddPrestation .ajouter_prestation:hover {
+    background-color: #0056b3;
+  }
+  
+  .AddPrestation p {
+    text-align: center;
+    color: #ff0000;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+    .AddPrestation .container {
+      padding: 20px;
+    }
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+
+  
+  .sidebar-closed {
+    width: calc(100% - 80px); /* Adjust this value based on your sidebar width */
+  }
+  
+  .content {
+    transition: width 0.3s ease;
+  }
+  

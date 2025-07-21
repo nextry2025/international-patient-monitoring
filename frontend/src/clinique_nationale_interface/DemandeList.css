@@ -1,0 +1,160 @@
+/* DemandeList.css */
+
+.demandelist {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .demandelist .d-flex {
+    display: flex;
+  }
+  
+
+  
+
+  
+  .demandelist h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .demandelist .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .demandelist .search-container {
+    flex-grow: 1;
+  }
+  
+  .demandelist .Rechercher {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .demandelist .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .demandelist .button:hover {
+    background-color: #218838;
+  }
+  
+ .demandelist  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+ .demandelist  table th,
+ .demandelist  table td {
+    border: 1px solid #fff7f7;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .demandelist table th {
+    background-color: #000000;
+  }
+  
+  .demandelist table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  .demandelist table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  .demandelist table .actions button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .demandelist table .actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .demandelist table .actions button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .demandelist table .actions button:last-child:hover {
+    background-color: #c82333;
+  }
+  
+  /* Modal Styles */
+   .popup {
+    display: flex;
+    flex-direction: column;
+  }
+  
+   .popup input,
+   .popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  
+  .popup .addbutton{
+    margin-left: 90%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40px;
+  }
+
+  .popup .removebutton{
+    margin-left: 90%;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: rgb(255, 9, 9);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+
+   .popup button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .popup button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+
+  
